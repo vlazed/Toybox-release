@@ -1,0 +1,8 @@
+{
+    "label": "Chat Voice",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "Learn how to add new chat voice prompts"
+    }
+  }
