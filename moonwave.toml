@@ -1,0 +1,13 @@
+title = "Pickle's Toybox"
+gitRepoUrl = "https://github.com/vlazed/Pickles-Toybox"
+
+gitSourceBranch = "main"
+changelog = true
+
+[docusaurus]
+url = "https://vlazed.github.io"
+baseUrl = "/Pickles-Toybox"
+
+[footer]
+style = "dark"
+copyright = "Copyright © 2024 vlazed. Built with Moonwave and Docusaurus"
