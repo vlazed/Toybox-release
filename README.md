@@ -1,3 +1,3 @@
 # Toybox
 
-This repository hosts the release notes for Pickle's Toybox.
+This repository hosts the docs and the release notes for Pickle's Toybox.
