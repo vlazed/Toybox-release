@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[745],{3891:s=>{s.exports=JSON.parse('{"sourceUrl":"https://github.com/vlazed/Pickles-Toybox/blob/main","baseUrl":"/Pickles-Toybox/","classOrder":[],"apiCategories":[]}')}}]);
