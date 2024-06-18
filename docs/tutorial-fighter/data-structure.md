@@ -59,7 +59,7 @@ We will get to combos later. Notice that each key in the fighter stats generally
 `T` denotes the type that the values of these keys may take on
 - For `DamageSet`, `T` is a `number`, and it represents how much damage each of these attacks may deal 
 - For `AttackLimbs`, `T` is a `string` which names the limb that these attacks will use
-- For `AttackLimbType`, `T` is a string which names the material of these limbs. Different materials produce different sounds
+- For `AttackLimbType`, `T` is a `string` which names the material of these limbs. Different materials produce different sounds
 
 The other stats are listed below:
 - `BlockHealRate` is the amount of health per second when not in the blocking state
@@ -107,6 +107,6 @@ The fighter tracks has the following data structure (taken from Brawler)
 
 Every number in the fighter tracks is an animation id. `AttackTrackSet` and `FlinchTrackSet` are the animation ids for the respective attacks and flinches. These tracks complement each other: for example, a right punch to the face should produce a flinch which the head is thrown back.
 
-`LocomotionSet` denotes the different animations to play when a player walks in a direction relative to the camera (in other words, **when shift-locked**). The second argument in `getPositionData` is a point in an animation blendspace, which the `DirectionalMovement` class uses to blend between the different animations.
+`LocomotionSet` denotes the different animations to play when a player walks in a direction relative to the camera (similarly in other words, **when shift-locked**). The second argument in `getPositionData` is a point in an animation blendspace, which the `DirectionalMovement` class uses to blend between the different animations.
 
-When making a locomotion for a fighter, make sure that every animation has the same pace. 
+When making a locomotion for a fighter, make sure that every animation has the same pace: otherwise, animations may play out of sync
