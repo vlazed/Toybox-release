@@ -1,12 +1,8 @@
-title = "Pickle's Toybox"
-gitRepoUrl = "https://github.com/vlazed/Toybox-release"
-
 gitSourceBranch = "main"
 changelog = true
 
 [docusaurus]
-url = "https://vlazed.github.io"
-baseUrl = "/Pickles-Toybox"
+tagline = "Happens here, happens nowhere else"
 
 [footer]
 style = "dark"
