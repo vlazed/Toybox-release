@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[745],{3891:e=>{e.exports=JSON.parse('{"sourceUrl":"https://github.com/vlazed/Toybox-release/blob/main","baseUrl":"/projectName/","classOrder":[],"apiCategories":[]}')}}]);
