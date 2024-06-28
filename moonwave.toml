@@ -1,9 +1,0 @@
-gitSourceBranch = "main"
-changelog = true
-
-[docusaurus]
-tagline = "Happens here, happens nowhere else"
-
-[footer]
-style = "dark"
-copyright = "Copyright © 2024 vlazed. Built with Moonwave and Docusaurus"
